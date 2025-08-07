@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a backend server for agenoverse",
+  "keywords": [
+    "Agentic Ai",
+    "Tech",
+    "artificial intelligence",
+    "agenoverse"
+  ],
+  "homepage": " https://github.com/agenoverse/Agenoverse-official#readme",
+  "bugs": {
+    "url": "https://github.com/shazilk-dev/Agenoverse-official/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shazilk-dev/Agenoverse-official.git"
+  },
+  "license": "ISC",
+  "author": "\"Shazil Khan\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "multer": "^2.0.2",
+    "util-deprecate": "^1.0.2"
+  }
+}
